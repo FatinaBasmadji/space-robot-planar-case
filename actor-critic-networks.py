@@ -36,6 +36,6 @@ class Critic(tf.keras.Model):
         output = self.layer1(tf.concat([State,Action], axis = 1))
         output = self.layer2(output)
         output = self.layer3(output)
-        critic_output = outputself.layer4(output)
+        critic_output = self.layer4(output)
         return critic_output
 
