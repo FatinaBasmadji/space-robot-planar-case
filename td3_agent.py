@@ -4,7 +4,7 @@
 # In[ ]:
 
 
-# The TD3_agent class was done (with little modifications) based on the code presented in: https://towardsdatascience.com/deep-deterministic-and-twin-delayed-deep-deterministic-policy-gradient-with-tensorflow-2-x-43517b0e0185 #
+# The TD3_agent class uses (with some modifications) the code presented in: https://towardsdatascience.com/deep-deterministic-and-twin-delayed-deep-deterministic-policy-gradient-with-tensorflow-2-x-43517b0e0185 #
 
 import tensorflow as tf
 import numpy as np
