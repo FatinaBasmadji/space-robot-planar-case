@@ -15,7 +15,7 @@ from tensorflow.keras.optimizers import Adam
 
 class TD3_agent():
     
-    def __init__(self, NrOfActions=3, BatchSize=128, gamma=0.99, tau=0.005, MinAction=-0.2, MaxAction=0.2, actor_update=2, replace=5 lr=0.001, noise=0.01, stop_noise=100, memory=100000):
+    def __init__(self, NrOfActions=3, BatchSize=128, gamma=0.99, tau=0.005, MinAction=-0.2, MaxAction=0.2, actor_update=2, replace=5, lr=0.001, noise=0.01, stop_noise=100, memory=100000):
         
         self.BatchSize = BatchSize
         self.NrOfActions = NrOfActions
